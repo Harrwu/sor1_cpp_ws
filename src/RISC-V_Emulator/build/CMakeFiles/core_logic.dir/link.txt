@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore_logic.a CMakeFiles/core_logic.dir/src/cpu.cpp.o CMakeFiles/core_logic.dir/src/memory.cpp.o
+/usr/bin/ranlib libcore_logic.a

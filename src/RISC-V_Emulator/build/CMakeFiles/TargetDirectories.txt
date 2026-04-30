@@ -1,0 +1,5 @@
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/core_logic.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/app.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/graphics.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/edit_cache.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/rebuild_cache.dir
