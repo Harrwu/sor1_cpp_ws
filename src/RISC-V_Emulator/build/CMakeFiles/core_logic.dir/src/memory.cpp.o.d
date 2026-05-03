@@ -1,7 +1,7 @@
 CMakeFiles/core_logic.dir/src/memory.cpp.o: \
- /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp \
+ /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp \
  /usr/include/stdc-predef.h \
- /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.h \
+ /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.h \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

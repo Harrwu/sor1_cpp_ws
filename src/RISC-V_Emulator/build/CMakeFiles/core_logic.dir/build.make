@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator
+CMAKE_SOURCE_DIR = /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build
+CMAKE_BINARY_DIR = /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/core_logic.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/core_logic.dir/codegen:
 .PHONY : CMakeFiles/core_logic.dir/codegen
 
 CMakeFiles/core_logic.dir/src/cpu.cpp.o: CMakeFiles/core_logic.dir/flags.make
-CMakeFiles/core_logic.dir/src/cpu.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp
+CMakeFiles/core_logic.dir/src/cpu.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp
 CMakeFiles/core_logic.dir/src/cpu.cpp.o: CMakeFiles/core_logic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core_logic.dir/src/cpu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_logic.dir/src/cpu.cpp.o -MF CMakeFiles/core_logic.dir/src/cpu.cpp.o.d -o CMakeFiles/core_logic.dir/src/cpu.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core_logic.dir/src/cpu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_logic.dir/src/cpu.cpp.o -MF CMakeFiles/core_logic.dir/src/cpu.cpp.o.d -o CMakeFiles/core_logic.dir/src/cpu.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp
 
 CMakeFiles/core_logic.dir/src/cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_logic.dir/src/cpu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp > CMakeFiles/core_logic.dir/src/cpu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp > CMakeFiles/core_logic.dir/src/cpu.cpp.i
 
 CMakeFiles/core_logic.dir/src/cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_logic.dir/src/cpu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp -o CMakeFiles/core_logic.dir/src/cpu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp -o CMakeFiles/core_logic.dir/src/cpu.cpp.s
 
 CMakeFiles/core_logic.dir/src/memory.cpp.o: CMakeFiles/core_logic.dir/flags.make
-CMakeFiles/core_logic.dir/src/memory.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp
+CMakeFiles/core_logic.dir/src/memory.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp
 CMakeFiles/core_logic.dir/src/memory.cpp.o: CMakeFiles/core_logic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core_logic.dir/src/memory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_logic.dir/src/memory.cpp.o -MF CMakeFiles/core_logic.dir/src/memory.cpp.o.d -o CMakeFiles/core_logic.dir/src/memory.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core_logic.dir/src/memory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_logic.dir/src/memory.cpp.o -MF CMakeFiles/core_logic.dir/src/memory.cpp.o.d -o CMakeFiles/core_logic.dir/src/memory.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp
 
 CMakeFiles/core_logic.dir/src/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_logic.dir/src/memory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp > CMakeFiles/core_logic.dir/src/memory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp > CMakeFiles/core_logic.dir/src/memory.cpp.i
 
 CMakeFiles/core_logic.dir/src/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_logic.dir/src/memory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp -o CMakeFiles/core_logic.dir/src/memory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp -o CMakeFiles/core_logic.dir/src/memory.cpp.s
 
 # Object files for target core_logic
 core_logic_OBJECTS = \
@@ -112,7 +112,7 @@ libcore_logic.a: CMakeFiles/core_logic.dir/src/cpu.cpp.o
 libcore_logic.a: CMakeFiles/core_logic.dir/src/memory.cpp.o
 libcore_logic.a: CMakeFiles/core_logic.dir/build.make
 libcore_logic.a: CMakeFiles/core_logic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcore_logic.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcore_logic.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core_logic.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_logic.dir/link.txt --verbose=$(VERBOSE)
 
@@ -125,6 +125,6 @@ CMakeFiles/core_logic.dir/clean:
 .PHONY : CMakeFiles/core_logic.dir/clean
 
 CMakeFiles/core_logic.dir/depend:
-	cd /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/core_logic.dir/DependInfo.cmake "--color=$(COLOR)" core_logic
+	cd /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles/core_logic.dir/DependInfo.cmake "--color=$(COLOR)" core_logic
 .PHONY : CMakeFiles/core_logic.dir/depend
 

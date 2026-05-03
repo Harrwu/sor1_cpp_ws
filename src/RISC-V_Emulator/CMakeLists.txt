@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(YourProjectName)
+project(RISC_V EMULATOR)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -18,5 +18,5 @@ add_library(core_logic
 add_executable(app src/main.cpp)
 target_link_libraries(app PRIVATE core_logic)
 
-add_executable(graphics src/graphics.cpp src/glad.c)
+add_executable(graphics src/graphics/graphics.cpp src/graphics/glad.c)
 target_link_libraries(graphics GL dl glfw)

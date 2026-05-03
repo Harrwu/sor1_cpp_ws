@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/glad.c" "CMakeFiles/graphics.dir/src/glad.c.o" "gcc" "CMakeFiles/graphics.dir/src/glad.c.o.d"
-  "/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/graphics.cpp" "CMakeFiles/graphics.dir/src/graphics.cpp.o" "gcc" "CMakeFiles/graphics.dir/src/graphics.cpp.o.d"
+  "/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/glad.c" "CMakeFiles/graphics.dir/src/glad.c.o" "gcc" "CMakeFiles/graphics.dir/src/glad.c.o.d"
+  "/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/graphics.cpp" "CMakeFiles/graphics.dir/src/graphics.cpp.o" "gcc" "CMakeFiles/graphics.dir/src/graphics.cpp.o.d"
   "" "graphics" "gcc" "CMakeFiles/graphics.dir/link.d"
   )
 

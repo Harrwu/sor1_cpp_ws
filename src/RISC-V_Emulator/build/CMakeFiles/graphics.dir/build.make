@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator
+CMAKE_SOURCE_DIR = /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build
+CMAKE_BINARY_DIR = /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/graphics.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/graphics.dir/codegen:
 .PHONY : CMakeFiles/graphics.dir/codegen
 
 CMakeFiles/graphics.dir/src/graphics.cpp.o: CMakeFiles/graphics.dir/flags.make
-CMakeFiles/graphics.dir/src/graphics.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/graphics.cpp
+CMakeFiles/graphics.dir/src/graphics.cpp.o: /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/graphics.cpp
 CMakeFiles/graphics.dir/src/graphics.cpp.o: CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/src/graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graphics.dir/src/graphics.cpp.o -MF CMakeFiles/graphics.dir/src/graphics.cpp.o.d -o CMakeFiles/graphics.dir/src/graphics.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/src/graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graphics.dir/src/graphics.cpp.o -MF CMakeFiles/graphics.dir/src/graphics.cpp.o.d -o CMakeFiles/graphics.dir/src/graphics.cpp.o -c /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/graphics.cpp
 
 CMakeFiles/graphics.dir/src/graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graphics.dir/src/graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/graphics.cpp > CMakeFiles/graphics.dir/src/graphics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/graphics.cpp > CMakeFiles/graphics.dir/src/graphics.cpp.i
 
 CMakeFiles/graphics.dir/src/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/src/graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/graphics.cpp -o CMakeFiles/graphics.dir/src/graphics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/graphics.cpp -o CMakeFiles/graphics.dir/src/graphics.cpp.s
 
 CMakeFiles/graphics.dir/src/glad.c.o: CMakeFiles/graphics.dir/flags.make
-CMakeFiles/graphics.dir/src/glad.c.o: /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/glad.c
+CMakeFiles/graphics.dir/src/glad.c.o: /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/glad.c
 CMakeFiles/graphics.dir/src/glad.c.o: CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/graphics.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/graphics.dir/src/glad.c.o -MF CMakeFiles/graphics.dir/src/glad.c.o.d -o CMakeFiles/graphics.dir/src/glad.c.o -c /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/graphics.dir/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/graphics.dir/src/glad.c.o -MF CMakeFiles/graphics.dir/src/glad.c.o.d -o CMakeFiles/graphics.dir/src/glad.c.o -c /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/glad.c
 
 CMakeFiles/graphics.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/graphics.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/glad.c > CMakeFiles/graphics.dir/src/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/glad.c > CMakeFiles/graphics.dir/src/glad.c.i
 
 CMakeFiles/graphics.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/graphics.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/glad.c -o CMakeFiles/graphics.dir/src/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/glad.c -o CMakeFiles/graphics.dir/src/glad.c.s
 
 # Object files for target graphics
 graphics_OBJECTS = \
@@ -114,7 +114,7 @@ graphics: CMakeFiles/graphics.dir/build.make
 graphics: CMakeFiles/graphics.dir/compiler_depend.ts
 graphics: /usr/lib/libglfw.so.3.4
 graphics: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/graphics.dir/clean:
 .PHONY : CMakeFiles/graphics.dir/clean
 
 CMakeFiles/graphics.dir/depend:
-	cd /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/build/CMakeFiles/graphics.dir/DependInfo.cmake "--color=$(COLOR)" graphics
+	cd /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/build/CMakeFiles/graphics.dir/DependInfo.cmake "--color=$(COLOR)" graphics
 .PHONY : CMakeFiles/graphics.dir/depend
 

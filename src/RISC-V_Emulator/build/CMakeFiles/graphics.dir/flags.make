@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/include
+C_INCLUDES = -I/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/include
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/include
+CXX_INCLUDES = -I/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/include
 
 CXX_FLAGS = -std=gnu++17
 

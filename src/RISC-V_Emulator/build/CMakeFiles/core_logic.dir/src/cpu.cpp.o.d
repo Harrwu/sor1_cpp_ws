@@ -1,7 +1,7 @@
 CMakeFiles/core_logic.dir/src/cpu.cpp.o: \
- /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp \
+ /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp \
  /usr/include/stdc-predef.h \
- /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.h \
+ /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.h \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -115,7 +115,7 @@ CMakeFiles/core_logic.dir/src/cpu.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/compare \
- /home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.h \
+ /home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.h \
  /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \

@@ -1,0 +1,4 @@
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/HFT/build/CMakeFiles/core_logic.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/HFT/build/CMakeFiles/data.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/HFT/build/CMakeFiles/edit_cache.dir
+/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/HFT/build/CMakeFiles/rebuild_cache.dir

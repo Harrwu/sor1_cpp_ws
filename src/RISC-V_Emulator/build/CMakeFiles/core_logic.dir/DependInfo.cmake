@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/cpu.cpp" "CMakeFiles/core_logic.dir/src/cpu.cpp.o" "gcc" "CMakeFiles/core_logic.dir/src/cpu.cpp.o.d"
-  "/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/RISC-V_Emulator/src/memory.cpp" "CMakeFiles/core_logic.dir/src/memory.cpp.o" "gcc" "CMakeFiles/core_logic.dir/src/memory.cpp.o.d"
+  "/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/cpu.cpp" "CMakeFiles/core_logic.dir/src/cpu.cpp.o" "gcc" "CMakeFiles/core_logic.dir/src/cpu.cpp.o.d"
+  "/home/harr-harr/cpp_ws/sor1_cpp_ws/src/RISC-V_Emulator/src/memory.cpp" "CMakeFiles/core_logic.dir/src/memory.cpp.o" "gcc" "CMakeFiles/core_logic.dir/src/memory.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
