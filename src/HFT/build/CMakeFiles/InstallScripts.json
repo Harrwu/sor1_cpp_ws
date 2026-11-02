@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/harr-harr/cpp_ws/sor1_cpp_pkg/src/HFT/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

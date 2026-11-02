@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcore_logic.a CMakeFiles/core_logic.dir/src/order.cpp.o CMakeFiles/core_logic.dir/src/strategy.cpp.o CMakeFiles/core_logic.dir/src/feed_handler.cpp.o
-/usr/bin/ranlib libcore_logic.a
